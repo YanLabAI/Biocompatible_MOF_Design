@@ -1,6 +1,6 @@
 # Machine Learning-Assisted Discovery of Biocompatible Metal-Organic Frameworks
 
-This repository contains the data and code for the manuscript titled: "Machine Learning-Assisted Discovery of Biocompatible Metal Organic Frameworks Using Simulation Data and Toxicological Profiles: Adsorptive Removal of Benzene Series Pollutants from Water".
+This repository contains the data and code for our manuscript: "Machine Learning-Assisted Discovery of Biocompatible Metal Organic Frameworks Using Simulation Data and Toxicological Profiles: Adsorptive Removal of Benzene Series Pollutants from Water".
 
 This project develops and applies a machine learning framework to identify novel, high-performance, and biocompatible Metal-Organic Frameworks (MOFs) for environmental remediation. The framework focuses on two primary predictive tasks:
 1.  Predicting the adsorption capacities of MOFs for benzene and toluene.
