@@ -10,7 +10,7 @@ This project develops and applies a machine learning framework to identify novel
 
 
 -   **/Data**: Contains all datasets used for model training and validation.
--   **/code**: Contains the main Jupyter Notebook (`ML.py`) with the complete machine learning pipeline.
+-   **/code**: Contains the main python file (`ML.py`) with the complete machine learning pipeline.
 
 ---
 
