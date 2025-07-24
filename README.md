@@ -32,7 +32,7 @@ The following datasets are provided in the `/Data` directory:
 
 Follow these steps to set up the environment and run the analysis.
 
-### Prerequisites
+### Running the code
 
 This project uses Python 3.9. You will need to install the required libraries.
 
@@ -42,5 +42,4 @@ pip install pandas numpy matplotlib seaborn scikit-learn xgboost shap
 git clone https://github.com/YanLabAI/Biocompatible_MOF_Design.git
 cd Biocompatible_MOF_Design
 
-## Running the Code
 python ML.py
