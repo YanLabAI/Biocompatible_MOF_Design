@@ -18,7 +18,7 @@ This project develops and applies a machine learning framework to identify novel
 
 The following datasets are provided in the `/Data` directory:
 
--   `MOF adsorption dataset.csv`: Contains the adsorption values (adsorption capacities) of MOF for the Benzene and Toluene.
+-   `MOF adsorption dataset.xlsx`: Contains the adsorption values (adsorption capacities) of MOF for the Benzene and Toluene.
 -   `IBC50.csv`: Ecotoxicity data for 1,188 compounds, detailing the 15-minute 50% bioluminescence inhibition concentration in *Vibrio fischeri*.
 -   `IGC50.csv`: Ecotoxicity data for 1,792 compounds, detailing the 40-hour 50% growth inhibition concentration in *Tetrahymena pyriformis*.
 -   `LC50DM.csv`: Ecotoxicity data for 353 compounds, detailing the 48-hour 50% lethal concentration for *Daphnia magna*.
