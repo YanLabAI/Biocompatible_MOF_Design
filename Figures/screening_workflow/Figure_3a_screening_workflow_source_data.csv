@@ -1,0 +1,10 @@
+﻿stage,retained_n,selection_rule
+DB-MOF database,168524,Initial database
+Descriptor QC,162985,Complete Sine Coulomb matrix descriptors
+Adsorption,32597,Top 20% by harmonic-mean balanced score
+Metal safety,26034,"Exclude Pb, Hg, Cd, Tl, Be and other hazardous metals"
+Synthesizability,6000,Ligand SA score < 5.0
+Aquatic toxicity,1000,"Top 1,000 with lowest predicted aquatic toxicity"
+PMT/vPvM,,Exclude predicted PMT or vPvM ligands
+Cost,500,Top 500 with lowest predicted linker cost (CoPriNet)
+Expert review,150,"Precursor availability, reproducibility and scale-up"

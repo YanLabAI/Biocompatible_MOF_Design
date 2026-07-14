@@ -1,0 +1,6 @@
+dataset,model,data_file,sample_size,repeats,r2_mean,r2_std,r2_values
+toluene,XGBoost,Data/adsorption/sine_matrix/sine_matrix_toluene_1000.xlsx,200,5,0.8971774946689111,0.03640385154091882,0.896038;0.845258;0.894313;0.902424;0.947856
+toluene,XGBoost,Data/adsorption/sine_matrix/sine_matrix_toluene_1000.xlsx,400,5,0.9442603042707518,0.022221356646036843,0.969317;0.951320;0.939187;0.909454;0.952023
+toluene,XGBoost,Data/adsorption/sine_matrix/sine_matrix_toluene_1000.xlsx,600,5,0.9608478511508884,0.009634560150992849,0.962025;0.951714;0.950656;0.972917;0.966927
+toluene,XGBoost,Data/adsorption/sine_matrix/sine_matrix_toluene_1000.xlsx,800,5,0.9747420880286126,0.006569653827734229,0.964289;0.972318;0.978194;0.978696;0.980214
+toluene,XGBoost,Data/adsorption/sine_matrix/sine_matrix_toluene_1000.xlsx,1000,5,0.9770509161123222,0.012087317987702743,0.983377;0.982598;0.977292;0.956158;0.985829

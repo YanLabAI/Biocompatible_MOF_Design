@@ -1,0 +1,6 @@
+dataset,model,data_file,sample_size,repeats,r2_mean,r2_std,r2_values
+benzene,GradientBoosting,Data/adsorption/sine_matrix/sine_matrix_benzene_1000.xlsx,200,5,0.8675016681809415,0.07182317543573845,0.876708;0.745935;0.910183;0.929925;0.874758
+benzene,GradientBoosting,Data/adsorption/sine_matrix/sine_matrix_benzene_1000.xlsx,400,5,0.9129356356698504,0.047331200470303175,0.895994;0.921947;0.962830;0.943055;0.840852
+benzene,GradientBoosting,Data/adsorption/sine_matrix/sine_matrix_benzene_1000.xlsx,600,5,0.9608582604464242,0.008884934845822463,0.971622;0.946856;0.961745;0.961640;0.962428
+benzene,GradientBoosting,Data/adsorption/sine_matrix/sine_matrix_benzene_1000.xlsx,800,5,0.950418759500962,0.019545295232087485,0.966941;0.933349;0.955238;0.926703;0.969863
+benzene,GradientBoosting,Data/adsorption/sine_matrix/sine_matrix_benzene_1000.xlsx,1000,5,0.9552366702200119,0.008197566358517098,0.947777;0.952003;0.962670;0.965297;0.948437

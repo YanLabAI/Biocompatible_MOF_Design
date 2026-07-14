@@ -1,0 +1,21 @@
+{
+  "analysis": "KFold vs GroupKFold by dominant metal",
+  "root": ".",
+  "tasks": {
+    "benzene": {
+      "data": "Data/adsorption/sine_matrix/sine_matrix_benzene_1000.xlsx",
+      "stoich": "Data/adsorption/stoichiometric_120/stoichiometric_120_benzene_1000.xlsx",
+      "target": "benzene_adsorption",
+      "model": "GradientBoosting"
+    },
+    "toluene": {
+      "data": "Data/adsorption/sine_matrix/sine_matrix_toluene_1000.xlsx",
+      "stoich": "Data/adsorption/stoichiometric_120/stoichiometric_120_toluene_1000.xlsx",
+      "target": "toluene_adsorption",
+      "model": "XGBoost"
+    }
+  },
+  "dominant_metal_rule": "maximum metal fraction from current stoichiometric_120_1000 table; ties sorted alphabetically",
+  "n_splits": 5,
+  "missing_group_count": 0
+}

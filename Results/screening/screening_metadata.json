@@ -1,0 +1,20 @@
+{
+  "query": "YEYVOO",
+  "exact_name": "YEYVOO_clean5b-(id_173725)",
+  "source_csv": "External precomputed DB-MOF Sine Coulomb matrix library",
+  "output_tag": "YEYVOO_clean5b_only",
+  "matched_rows": 1,
+  "base_rows": 162984,
+  "combined_rows": 162985,
+  "top20_n": 32597,
+  "benzene_model": "sine_matrix/benzene/GradientBoosting",
+  "toluene_model": "sine_matrix/toluene/XGBoost",
+  "balanced_score": "harmonic_mean(benzene_percentile, toluene_percentile)",
+  "min_percentile": "min(benzene_percentile, toluene_percentile)",
+  "output_files": {
+    "sorted_by_balanced_score": "Results/screening/all_mofs_ranked_by_balanced_score.csv",
+    "top20_by_balanced_score": "Results/screening/top20_percent_by_balanced_score.csv",
+    "added_prediction": "Results/screening/added_YEYVOO_prediction.csv",
+    "added_ranks": "Results/screening/added_YEYVOO_ranks.csv"
+  }
+}

@@ -1,0 +1,4 @@
+file,width,height,mean_rgb,nonblank
+Results/robustness_current1000/random_10_splits\random_10_split_r2.tiff,2065,1472,225.65;218.46;213.69,True
+Results/robustness_current1000/groupkfold_dominant_metal\kfold_vs_groupkfold_r2.tiff,3181,1519,222.06;216.94;213.63,True
+Results/robustness_current1000/leave_one_metal_out_ood\leave_one_metal_out_r2_n20.tiff,3527,2067,224.35;220.08;217.36,True

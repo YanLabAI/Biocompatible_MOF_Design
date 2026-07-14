@@ -1,0 +1,32 @@
+{
+  "note": "Corrected Figure S8 using current 1000-row sine_matrix modeling datasets.",
+  "sample_sizes": [
+    200,
+    400,
+    600,
+    800,
+    1000
+  ],
+  "split_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "test_size": 0.2,
+  "tasks": [
+    {
+      "adsorbate": "benzene",
+      "data_file": "Data/adsorption/sine_matrix/sine_matrix_benzene_1000.xlsx",
+      "model": "GradientBoosting",
+      "n_rows": 1000
+    },
+    {
+      "adsorbate": "toluene",
+      "data_file": "Data/adsorption/sine_matrix/sine_matrix_toluene_1000.xlsx",
+      "model": "XGBoost",
+      "n_rows": 1000
+    }
+  ]
+}
