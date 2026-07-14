@@ -48,12 +48,12 @@ STAGES = [
     },
     {
         "stage": "Cost",
-        "retained_n": 500,
-        "rule": "Top 500 with lowest predicted\nlinker cost (CoPriNet)",
+        "retained_n": 150,
+        "rule": "Top 150 with lowest predicted\nlinker cost (CoPriNet)",
     },
     {
         "stage": "Expert review",
-        "retained_n": 150,
+        "retained_n": 2,
         "rule": "Precursor availability,\nreproducibility and scale-up",
     },
 ]
@@ -71,7 +71,7 @@ COLORS = [
 
 
 def width_for_count(count: float, minimum: float = 0.95, maximum: float = 3.75) -> float:
-    lower, upper = math.log10(150), math.log10(168_524)
+    lower, upper = math.log10(2), math.log10(168_524)
     fraction = (math.log10(count) - lower) / (upper - lower)
     return minimum + fraction * (maximum - minimum)
 
@@ -160,7 +160,7 @@ def build_figure() -> plt.Figure:
     )
 
     # The PMT/vPvM retained count was not reported; use an intermediate width only for layout.
-    visual_counts = [162_985, 32_597, 26_034, 6_000, 1_000, math.sqrt(1_000 * 500), 500, 150]
+    visual_counts = [162_985, 32_597, 26_034, 6_000, 1_000, math.sqrt(1_000 * 150), 150, 2]
     widths = [initial_width] + [width_for_count(value) for value in visual_counts]
     band_height = 0.47
     gap = 0.045
@@ -282,6 +282,7 @@ def verify_outputs() -> None:
     svg_text = Path(f"{STEM}.svg").read_text(encoding="utf-8")
     assert "DB-MOF database" in svg_text
     assert "n = 150" in svg_text
+    assert "n = 2" in svg_text
 
 
 def main() -> None:

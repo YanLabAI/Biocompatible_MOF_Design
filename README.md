@@ -15,7 +15,7 @@ The interactive MOFScreen-Agent platform is available at <https://web-phi-peach-
 - `Results/robustness_current1000/`: per-seed, per-fold and leave-one-metal-out numerical results.
 - `Results/learning_curve/`: source values for the 1,000-sample learning-curve analysis.
 - `Results/screening/`: all 162,985 ranked candidates and the top 20% selected by balanced score.
-- `Results/economic_screening/`: CoPriNet-based top-500 linker-cost ranking.
+- `Results/economic_screening/`: CoPriNet linker-cost ranking and the 150 candidates retained before expert review.
 - `Figures/`: publication figures and machine-readable source data.
 
 ## Current adsorption datasets
